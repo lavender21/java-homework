@@ -21,5 +21,6 @@ public class JavaPractice {
         System.out.println("FizzBuzz:");
         FizzBuzz fb = new FizzBuzz();
         fb.fizzBuzz(100);
+        fb.generate(30);
     }
 }
