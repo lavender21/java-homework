@@ -17,5 +17,9 @@ public class JavaPractice {
         diamondExercises.diamond(3);
         System.out.println("Diamond with name\n");
         diamondExercises.diamondWithName(3,"Bill");
+
+        System.out.println("FizzBuzz:");
+        FizzBuzz fb = new FizzBuzz();
+        fb.fizzBuzz(100);
     }
 }
