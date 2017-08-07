@@ -9,5 +9,13 @@ public class JavaPractice {
         triangleExercises.drawVerticalLine(3);
         System.out.println("Draw a triangle line\n");
         triangleExercises.drawTriangle(3);
+
+        DiamondExercises diamondExercises = new DiamondExercises();
+        System.out.println("Isosceles Triangle\n");
+        diamondExercises.isoscelesTriangle(3);
+        System.out.println("Diamond\n");
+        diamondExercises.diamond(3);
+        System.out.println("Diamond with name\n");
+        diamondExercises.diamondWithName(3,"Bill");
     }
 }
